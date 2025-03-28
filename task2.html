@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+
+<body>
+    <h1 align="center">Student Details</h1>
+    <form action="file:///C:/Users/sneha/OneDrive/Desktop/WEBTECH/HTML/task1.html">
+        <table align="center" border="3px" cellpadding="15px" bordercolor="green" rules="None">
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" size="30" id="fname" ></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" size="30" id="lname" ></td>
+            </tr>
+            <tr>
+                <td><label for="father">Father</label></td>
+                <td><input type="text" size="30" id="father" ></td>
+            </tr>
+            <tr>
+                <td><label for="mother">Mother</label></td>
+                <td><input type="text" size="30" id="mother" ></td>
+            </tr>
+            <tr>
+                <td><label for="addrs">Address</label></td>
+                <td> <input type="text" size="30" ></td>
+
+            </tr>
+            <tr>
+                <td><input type="text" size="30"></td>
+                <td><input type="text" size="30"></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" size="70"></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="state">State</label></td>
+                <td>
+
+
+                    <select id="state">
+                        <option>--Choose State--</option>
+                        <option>Karnataka</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Telangana</option>
+                        <option>Tamil Nadu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="contact">Contact</label></td>
+                <td><input type="tel" pattern="[6789][0-9]{9}" max="10" id="contact"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="clg">College</label></td>
+                <td><input type="text" size="30" id="clg" ></td>
+            </tr>
+            <tr>
+
+
+                <td><label for="qh">Highest Qualification</label></td>
+                <td>
+                    <select id="qh" required>
+                        <option>--Choose Qualification--</option>
+                        <option>B.E</option>
+                        <option>B.Tech</option>
+                        <option>MCA</option>
+                        <option>BCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="per">Percentage</label></td>
+                <td><input type="number" id="per" max="100" min="10" ></td>
+            </tr>
+            <tr>
+
+                <td>Stream</td>
+                <td>
+                    <input type="radio" id="gender">Mech
+                    <input type="radio" id="gender">CS
+                    <input type="radio" id="gender">IS
+                    <br>
+                    <input type="radio" id="gender">Civil
+                    <input type="radio" id="gender">IT
+                    <input type="radio" id="gender">EEE
+
+                </td>
+            </tr>
+            <tr>
+                <td>Skills</td>
+                <td>
+                    <input type="checkbox" id="py">
+                    <label for="py">Python</label>
+
+                    <input type="checkbox" id="java">
+                    <label for="java">Java</label>
+
+                    <input type="checkbox" id="c">
+                    <label for="c">C</label>
+                    <br>
+                    <input type="checkbox" id="cpp">
+                    <label for="cpp">C++</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" id="sql">
+                    <label for="sql">SQL</label>
+                    <input type="checkbox" id="django">
+                    <label for="django">Django</label>
+                    <br>
+                    <input type="checkbox" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" id="js">
+                    <label for="js">JS</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages Known</td>
+                <td>
+
+                    <input type="checkbox" id="kan">
+                    <label for="kan">Kannada</label>
+                    <input type="checkbox" id="Telugu">
+                    <label for="telugu">Telugu</label>
+                    <input type="checkbox" id="hindi">
+                    <label for="hindi">Hindi</label>
+                    <br>
+                    <input type="checkbox" id="eng">
+                    <label for="eng">English</label>&nbsp;
+                    <input type="checkbox" id="tamil">
+                    <label for="tamil">Tamil</label>
+                    <input type="checkbox" id="mal">
+                    <label for="mal">Malayalam</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Prefered Location</td>
+                <td>
+
+                    <input type="checkbox" id="blr">
+                    <label for="blr">Bengaluru</label>
+                    <input type="checkbox" id="chn">
+                    <label for="chn">Chennai</label>
+                    <br>
+                    <input type="checkbox" id="hyd">
+                    <label for="hyd">Hyderabad</label>&nbsp;
+                    <input type="checkbox" id="pune">
+                    <label for="pune">Pune</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Write Your Comments <br><br>
+                    <textarea name="comment" id="cmnt" cols="65" rows="10" style="resize: none;"></textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="checkbox" id="agree" >
+                    <label for="agree">Agree terms & condition</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td align="right"><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
